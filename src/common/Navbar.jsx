@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-flex">
-            <button className="btn btn-outline-success bg-black text-white text-uppercase" type="submit">
+            <button className="btn btn-outline-success bg-black text-white text-uppercase fw-bold" type="submit">
               Register
             </button>
           </div>

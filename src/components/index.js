@@ -3,5 +3,6 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Works from "./Works";
 import AboutUs from "./AboutUs";
+import Header from "./Header";
 
-export { Services, Home, Contact, Works, AboutUs };
+export { Services, Home, Contact, Works, AboutUs, Header };
