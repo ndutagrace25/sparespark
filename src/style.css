@@ -40,10 +40,14 @@ body {
 }
 
 .header-container {
-  height: 100vh;
+  height: 88vh;
 }
 .about-container {
   height: 100vh;
+}
+
+.about-card {
+  width: 32%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -74,7 +78,8 @@ body {
     margin-top: 5px;
   }
   .about-card {
-    margin-top: 5px;
+    margin-top: 10px;
+    width: 100%;
   }
   .header-title {
     font-size: 15px;
