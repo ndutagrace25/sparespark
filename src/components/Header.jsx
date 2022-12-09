@@ -3,12 +3,11 @@ import { world } from "../images";
 
 const Header = () => {
   return (
-    <div className="d-flex my-5  pb-5 justify-content-between align-items-center flex-row header-container">
+    <section className="d-flex justify-content-between align-items-center flex-row header-container">
       <div className="mobile-view-header">
-        {/* <img src="https://gordianknotz.tech/wp-content/uploads/2022/11/ezgif.com-gif-maker.gif" alt="header"/> */}
         <img src={world} alt="header" className="header-img" />
       </div>
-      <div className="d-flex justify-content-center flex-column align-items-center col-md-6">
+      <div className="d-flex justify-content-center flex-column align-items-center col-md-5">
         <div className="fw-bold text-black header-title text-capitalize">
           Fourth industrial Revolution Begins Here
         </div>
@@ -23,10 +22,9 @@ const Header = () => {
         </div>
       </div>
       <div className="desktop-view-header">
-        {/* <img src="https://gordianknotz.tech/wp-content/uploads/2022/11/ezgif.com-gif-maker.gif" alt="header"/> */}
         <img src={world} alt="header" className="header-img" />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,15 +4,17 @@ import { AboutUsCard } from "../common";
 
 const AboutUs = () => {
   return (
-    <div className="my-5 py-5 d-flex justify-content-between align-items-center">
+    <section
+      className="d-flex justify-content-between align-items-center about-container"
+    >
       <div>
         <img alt="about" src={about} className="header-img" />
       </div>
       <div className=" col-md-7">
         <div className="text-center">
-          <h3 className="fw-bold text-black mb-4">About Us</h3>
+          <h3 className="fw-bold text-black mb-4 header-title about-title">About Us</h3>
         </div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between about-cards">
           <AboutUsCard
             icon_class="fa-regular fa-paper-plane"
             title="Future Concept"
@@ -42,7 +44,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
