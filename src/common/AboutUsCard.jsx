@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import Fade from "react-reveal/Fade";
 
-const AboutUsCard = ({ title, content, icon_class, delay }) => {
+const AboutUsCard = ({ title, content, icon_class, delay, key }) => {
   const [bgColor, setBgColor] = useState("bg-white text-black");
   const [textIcon, setIconColor] = useState("text-success");
   const [titleColor, setTitleColor] = useState("text-black");
   return (
-    <Fade  bottom delay={delay}>
+    <Fade bottom delay={delay} key={key}>
       <div
-        className={classNames(bgColor, "shadow rounded p-3 about-card")}
+        className={classNames(bgColor, "shadow rounded p-3 about-card mt-3")}
         onMouseEnter={() => {
           setBgColor("bg-success text-white");
           setIconColor("text-white");

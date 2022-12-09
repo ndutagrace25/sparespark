@@ -22,7 +22,7 @@ const Header = () => {
         <Zoom>
           <div className="mt-2 header-text">
             Innovation is the heart of success in any business that drives major
-            economies and great companies around the world.{" "}
+            economies and great companies around the world.
           </div>
         </Zoom>
         <Fade bottom>
@@ -33,9 +33,11 @@ const Header = () => {
           </div>
         </Fade>
       </div>
-      <div className="desktop-view-header">
-        <img src={world} alt="header" className="header-img" />
-      </div>
+      <Bounce delay={300}>
+        <div className="desktop-view-header">
+          <img src={world} alt="header" className="header-img" />
+        </div>
+      </Bounce>
     </section>
   );
 };

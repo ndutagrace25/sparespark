@@ -2,14 +2,13 @@ import React from "react";
 import { about } from "../images";
 import { AboutUsCard } from "../common";
 import Bounce from "react-reveal/Bounce";
-import Fade from "react-reveal/Fade";
 
 const AboutUs = () => {
   return (
     <section className="">
       <div className="d-flex justify-content-between align-items-center about-container">
         <Bounce delay={300}>
-          <div className="col-md-4">
+          <div className="col-md-4 about-img">
             <img alt="about" src={about} className="header-img" />
           </div>
         </Bounce>
