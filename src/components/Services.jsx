@@ -1,12 +1,7 @@
 import React from "react";
-import { Navbar } from "../common";
 
 const Services = () => {
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Services;
