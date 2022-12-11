@@ -79,6 +79,19 @@ footer {
     width: 70%;
   }
 
+  .header-img-mobile {
+    /* border-radius: 50%; */
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    height: 180px;
+  }
+
+  .media-icon {
+    margin-right: 10px !important;
+  }
+
   .about-img {
     display: flex;
     justify-content: center;
@@ -120,8 +133,9 @@ footer {
     display: block !important;
     margin-bottom: 13px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+    /* width: 100%; */
   }
   .header-text {
     font-size: 14px;

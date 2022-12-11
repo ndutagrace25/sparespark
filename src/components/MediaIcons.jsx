@@ -9,7 +9,7 @@ const MediaIcons = () => {
           href="https://web.facebook.com/?_rdc=1&_rdr"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center"
+          className="p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center media-icon"
         >
           <i className="fa-brands fa-facebook fw-bold fa-2x text-white"></i>
         </a>
@@ -20,7 +20,7 @@ const MediaIcons = () => {
           href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center"
+          className="p-2 bg-primary rounded-circle d-flex align-items-center media-icon justify-content-center"
         >
           <i className="fa-brands fa-twitter fw-bold fa-2x text-white"></i>
         </a>
@@ -31,7 +31,7 @@ const MediaIcons = () => {
           href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center"
+          className="p-2 bg-primary rounded-circle d-flex align-items-center media-icon justify-content-center"
         >
           <i className="fa-brands fa-instagram fw-bold fa-2x text-white"></i>
         </a>
@@ -41,7 +41,7 @@ const MediaIcons = () => {
           href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 bg-primary rounded-circle d-flex align-items-center justify-content-center"
+          className="p-2 bg-primary rounded-circle d-flex align-items-center media-icon justify-content-center"
         >
           <i className="fa-brands fa-youtube fw-bold fa-2x text-white"></i>
         </a>

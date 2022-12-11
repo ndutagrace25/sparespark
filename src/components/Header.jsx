@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <section className="d-flex justify-content-between align-items-center flex-row header-container">
       <Bounce delay={300}>
-        <div className="mobile-view-header">
-          <img src={world} alt="header" className="header-img" />
+        <div className="mobile-view-header col-md-12 col-sm-12">
+          <img src={world} alt="header" className="header-img-mobile img-fluid" />
         </div>
       </Bounce>
 
