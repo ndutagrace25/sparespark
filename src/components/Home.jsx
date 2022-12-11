@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Navbar } from "../common";
 import { Header, AboutUs, Services, Works, Contact, Register } from ".";
-
+// 
 const Home = () => {
   const myRefAbout = useRef(null);
   const myRefServices = useRef(null);
