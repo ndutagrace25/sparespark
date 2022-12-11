@@ -157,4 +157,7 @@ footer {
   .copyright {
     flex-direction: column;
   }
+  .footer-icon {
+    margin-top: 10px;
+  }
 }

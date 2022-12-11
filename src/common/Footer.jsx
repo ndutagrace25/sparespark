@@ -83,7 +83,7 @@ const Footer = ({
         <div className="footer-text">
           Copyright © 2022. All rights reserved by GordianKnotz
         </div>
-        <div className="col-md-4 d-flex justify-content-between">
+        <div className="col-md-4 d-flex justify-content-between footer-icon">
           <a
             href="https://web.facebook.com/?_rdc=1&_rdr"
             target="_blank"
