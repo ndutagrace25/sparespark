@@ -5,5 +5,6 @@ import Works from "./Works";
 import AboutUs from "./AboutUs";
 import Header from "./Header";
 import Testimonials from "./Testimonials";
+import News from "./News";
 
-export { Services, Home, Contact, Works, AboutUs, Header, Testimonials };
+export { Services, Home, Contact, Works, AboutUs, Header, Testimonials, News };

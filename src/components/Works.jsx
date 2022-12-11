@@ -3,7 +3,7 @@ import { x_tra_time, sparespark_logo } from "../images";
 import Fade from "react-reveal/Fade";
 import classNames from "classnames";
 import { WorkModal } from "../common";
-import { Testimonials } from ".";
+import { Testimonials, News } from ".";
 
 const Works = () => {
   const data = [
@@ -89,6 +89,7 @@ const Works = () => {
         </div>
       </div>
       <Testimonials />
+      <News />
     </section>
   );
 };
