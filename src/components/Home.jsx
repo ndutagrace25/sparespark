@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../common";
-import { Header, AboutUs, Services } from ".";
+import { Header, AboutUs, Services, Works } from ".";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
         <Header />
         <AboutUs />
         <Services />
+        <Works />
       </div>
     </div>
   );

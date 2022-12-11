@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
 import AboutUsCard from "./AboutUsCard";
+import WorkModal from "./WorkModal";
 
-export { Navbar, AboutUsCard };
+export { Navbar, AboutUsCard, WorkModal };

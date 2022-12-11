@@ -65,7 +65,7 @@ const Services = () => {
           <div className="col-md-12">
             <div className="text-center">
               <h3 className="fw-bold text-black mb-4 header-title about-title">
-                Services
+                Our Services
               </h3>
             </div>
             <div className="d-flex justify-content-between about-cards col-md-12 flex-wrap">
