@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div className="bg-light" ref={myRefHome}>
-      <div className="container">
+      <div className="container bg-light">
         <Navbar
           scrollToAbout={() => myRefAbout.current.scrollIntoView()}
           scrollToServices={() => myRefServices.current.scrollIntoView()}

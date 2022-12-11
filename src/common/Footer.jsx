@@ -9,7 +9,7 @@ const Footer = ({
   scrollToHome,
 }) => {
   return (
-    <footer className="d-flex footer flex-column">
+    <footer className="d-flex footer flex-column bg-light">
       <div className="border-top border-bottom my-3 d-flex justify-content-between py-3 col-md-12 footer-items">
         <div className="col-md-3 footer-text">
           <div>
