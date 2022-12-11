@@ -32,7 +32,7 @@ const AboutUsCard = ({ title, content, icon_class, delay, key }) => {
         >
           {title}
         </div>
-        <div className="text-justify about-text">{content}</div>
+        <div className="text-justify about-text" >{content}</div>
       </div>
     </Fade>
   );
