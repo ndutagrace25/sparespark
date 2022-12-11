@@ -27,8 +27,12 @@ const Header = () => {
         </Zoom>
         <Fade bottom>
           <div className="mt-3">
-            <button className="btn btn-light btn-outline-success px-5">
-              GETTING STARTED
+            <button
+              className="btn btn-light btn-outline-success px-5"
+              data-bs-toggle="modal"
+              data-bs-target="#register"
+            >
+              GET STARTED
             </button>
           </div>
         </Fade>

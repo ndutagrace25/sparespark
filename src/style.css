@@ -31,6 +31,11 @@ body {
   font-size: 29px;
 }
 
+footer {
+  bottom: 0 !important;
+  /* position: fixed; */
+}
+
 .about-sub-title {
   font-size: 18px;
 }
@@ -46,8 +51,23 @@ body {
   height: 100vh;
 }
 
+.contact-container {
+  text-align: center;
+  position: relative;
+  height: 80vh;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
 .about-card {
   width: 32%;
+}
+
+.footer-text {
+  font-size: 13px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -105,5 +125,22 @@ body {
   }
   .header-text {
     font-size: 14px;
+  }
+  .footer-items {
+    flex-direction: column;
+  }
+  .contact-container {
+    text-align: center;
+    /* position: relative; */
+    height: 100vh;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
+  .copyright {
+    flex-direction: column;
   }
 }

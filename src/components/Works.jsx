@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { x_tra_time, sparespark_logo } from "../images";
 import Fade from "react-reveal/Fade";
 import classNames from "classnames";
@@ -35,7 +35,7 @@ const Works = () => {
 
   const displayItems = data.map((item, index) => {
     return (
-      <>
+      <Fragment key={index}>
         <WorkModal
           id={`work_${index}`}
           title={item.title}
@@ -44,7 +44,6 @@ const Works = () => {
         />
         <Fade delay={item.delay} left>
           <div
-            key={index}
             className={classNames(
               item.margin_right,
               "shadow rounded mt-2 p-3 bg-white col-md-4"
@@ -69,7 +68,7 @@ const Works = () => {
             </div>
           </div>
         </Fade>
-      </>
+      </Fragment>
     );
   });
   return (

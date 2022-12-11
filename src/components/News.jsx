@@ -9,7 +9,7 @@ const News = () => {
             Latest News
           </h3>
         </div>
-        <div className="shadow p-3 col-md-8 text-center">Comming Soon....</div>
+        <div className="shadow p-3 col-md-8 text-center bg-white">Comming Soon....</div>
       </div>
     </section>
   );
