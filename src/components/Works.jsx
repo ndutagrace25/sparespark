@@ -5,7 +5,7 @@ import classNames from "classnames";
 import { WorkModal } from "../common";
 import { Testimonials, News } from ".";
 
-const Works = () => {
+const Works = ({myRef}) => {
   const data = [
     {
       image: x_tra_time,
@@ -72,7 +72,7 @@ const Works = () => {
     );
   });
   return (
-    <section className="">
+    <section className="" ref={myRef}>
       <div className="d-flex justify-content-between align-items-center about-container">
         <div className=" col-md-12 ">
           <div className="col-md-12">

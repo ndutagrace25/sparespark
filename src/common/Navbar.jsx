@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../images";
 
-const Navbar = () => {
+const Navbar = ({
+  scrollToAbout,
+  scrollToServices,
+  scrollToWorks,
+  scrollToContact,
+  scrollToHome,
+}) => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
@@ -26,27 +32,32 @@ const Navbar = () => {
         >
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-black">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">
+              <Link
+                className="nav-link"
+                aria-current="page"
+                to="/"
+                onClick={() => scrollToHome()}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" onClick={() => scrollToAbout()}>
                 About Us
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" onClick={() => scrollToServices()}>
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" onClick={() => scrollToWorks()}>
                 Works
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" onClick={() => scrollToContact()}>
                 Contact
               </Link>
             </li>

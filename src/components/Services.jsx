@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutUsCard } from "../common";
 
-const Services = () => {
+const Services = ({ myRef }) => {
   const data = [
     {
       title: "Digital Strategy",
@@ -59,7 +59,7 @@ const Services = () => {
     );
   });
   return (
-    <section className="">
+    <section className="" ref={myRef}>
       <div className="d-flex justify-content-between align-items-center about-container">
         <div className=" col-md-12 ">
           <div className="col-md-12">

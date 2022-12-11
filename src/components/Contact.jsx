@@ -2,9 +2,16 @@ import React from "react";
 import { MediaIcons } from ".";
 import { Footer } from "../common";
 
-const Contact = () => {
+const Contact = ({
+  myRef,
+  scrollToAbout,
+  scrollToServices,
+  scrollToWorks,
+  scrollToContact,
+  scrollToHome,
+}) => {
   return (
-    <section>
+    <section ref={myRef}>
       <div className="contact-container">
         <div className="py-5 d-flex justify-content-center flex-column align-items-center">
           <MediaIcons />
@@ -19,7 +26,13 @@ const Contact = () => {
             GET STARTED
           </button>
         </div>
-        <Footer />
+        <Footer
+          scrollToAbout={scrollToAbout}
+          scrollToServices={scrollToServices}
+          scrollToWorks={scrollToWorks}
+          scrollToContact={scrollToContact}
+          scrollToHome={scrollToHome}
+        />
       </div>
     </section>
   );

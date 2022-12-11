@@ -1,13 +1,25 @@
 import React from "react";
 import { logo } from "../images";
 
-const Footer = () => {
+const Footer = ({
+  scrollToAbout,
+  scrollToServices,
+  scrollToWorks,
+  scrollToContact,
+  scrollToHome,
+}) => {
   return (
     <footer className="d-flex footer flex-column">
       <div className="border-top border-bottom my-3 d-flex justify-content-between py-3 col-md-12 footer-items">
         <div className="col-md-3 footer-text">
           <div>
-            <img alt="logo" src={logo} className="logo" />
+            <img
+              alt="logo"
+              src={logo}
+              className="logo"
+              style={{ cursor: "pointer" }}
+              onClick={() => scrollToHome()}
+            />
           </div>
           <div className="my-2">
             The Fourth Industrial Revolution Begins Here
@@ -22,19 +34,39 @@ const Footer = () => {
         </div>
         <div className="col-md-3">
           <div className="fw-bold fs-5">Quick Links</div>
-          <div className="footer-text my-1" style={{ cursor: "pointer" }}>
+          <div
+            className="footer-text my-1"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToHome()}
+          >
             Home
           </div>
-          <div className="footer-text my-1" style={{ cursor: "pointer" }}>
+          <div
+            className="footer-text my-1"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToAbout()}
+          >
             About Us
           </div>
-          <div className="footer-text my-1" style={{ cursor: "pointer" }}>
+          <div
+            className="footer-text my-1"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToServices()}
+          >
             Services
           </div>
-          <div className="footer-text my-1" style={{ cursor: "pointer" }}>
+          <div
+            className="footer-text my-1"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToWorks()}
+          >
             Works
           </div>
-          <div className="footer-text my-1" style={{ cursor: "pointer" }}>
+          <div
+            className="footer-text my-1"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToContact()}
+          >
             Contacts
           </div>
         </div>

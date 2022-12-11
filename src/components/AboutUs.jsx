@@ -3,9 +3,9 @@ import { about } from "../images";
 import { AboutUsCard } from "../common";
 import Bounce from "react-reveal/Bounce";
 
-const AboutUs = () => {
+const AboutUs = ({myRef}) => {
   return (
-    <section className="">
+    <section className="" ref={myRef}>
       <div className="d-flex justify-content-between align-items-center about-container">
         <Bounce delay={300}>
           <div className="col-md-4 about-img">
